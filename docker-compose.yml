@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  nasm-gcc-dev-env:
+    build: ./x86-playground
+    volumes:
+      - ./x86-playground/src:/usr/src
+    command:
+      - /bin/bash
+
