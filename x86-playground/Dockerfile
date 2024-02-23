@@ -10,5 +10,5 @@ RUN apt-get update -y && apt-get install -y \
 
 RUN groupadd -g 1000 devuser && useradd -r -u 1000 -g devuser devuser
 USER devuser
-WORKDIR /usr/devuser
+WORKDIR /usr/src
 
