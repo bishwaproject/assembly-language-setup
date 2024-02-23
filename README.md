@@ -28,6 +28,7 @@ This repository provides a quick and easy setup for experimenting and developing
    docker-compose run assembly-language-setup
     ```
 ## Checking The Environment
+Once inside the container, verify the installed tools:
    ```bash
    gdb --version
    vim --version
