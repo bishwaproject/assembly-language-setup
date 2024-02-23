@@ -13,7 +13,7 @@ This repository provides a quick and easy setup for experimenting and developing
 1. Clone the repository:
 
    ```bash
-   git clone [invalid URL removed]
+   git clone https://github.com/bishwaproject/assembly-language-setup.git
    ```
 2. Navigate to the project directory:
    ```bash
